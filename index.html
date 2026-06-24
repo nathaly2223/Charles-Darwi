@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charles Darwin</title>
+    <title>Charles Darwi</title>
     <style>
         header{
             background-color:#20065b;
@@ -11,8 +11,8 @@
             text-align: center;
             max-width: 800px;
             margin: 0 auto;  
-            padding: 16px;
-            border: 5px solid #0e5b9e;
+            padding: 18px;
+            border: 3px solid #0e5b9e;
         }
         main{
           background-color:#FFFFFF;
@@ -20,19 +20,41 @@
             text-align: center;
             max-width: 800px;
             margin: 0 auto;  
+        img{
+            display: block;      
+            margin: 0 auto;    
+            width: 60%;        
+            height: auto;    
+           }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Charles Darwin</h1>
-    <p> Naturalista e geólogo britânico</p>
+        <h1>Charles Darwi</h1>
+    <p>Naturalista e geólogo britânico</p>
     </header>
 
     <main>
-        <img src="" alt=".">
-        <h2>Saiba mais sobre Naturalista e geólogo britânico com Charles Darwi</h2>
+        <img src="imagem-slide.png" alt="Charles Darwin, um homem idoso com uma longa barba branca,
+         de perfil. À esquerda, uma árvore representa a Árvore da Vida, com várias espécies de tentilhões (pássaros) nos galhos, além de conchas e fósseis.
+          Na mesa, há um livro aberto com um diagrama evolutivo e uma caixa de vidro com insetos colecionados. No canto inferior direito, 
+          um pequeno globo terrestre mostra a rota de sua viagem. No topo está escrita a palavra "DARWIN" e, abaixo, "SELEÇÃO NATURAL EVOLUÇÃO".
+        ">
     </main>
 </body>
+<script>
+    const botao = document. querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+
+    function botaoClicado(){
+       console.log("fui clicado");
+       let texto = botao.querySelector
+       ("span");
+       texto.textContent++;
+    } 
+
+</script>
 </html>
+
 
